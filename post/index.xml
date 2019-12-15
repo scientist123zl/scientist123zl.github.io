@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://scientist123zl.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Dec 2019 14:24:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://scientist123zl.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://scientist123zl.github.io/post/blog/</link>
+      <pubDate>Sun, 15 Dec 2019 14:24:37 +0800</pubDate>
+      
+      <guid>https://scientist123zl.github.io/post/blog/</guid>
+      <description>朱雷社区 快速运行 依赖 -Git -JDK -Maven -MySQL
+步骤 -yum update -yum install git -mkdir App -cd App -git clone https://github.com/scientist123zl/MyBlog.git -cd MyBlog/ -yum install maven -maven -v -maven clean compile package -cp src/main/resources/application.properties src/main/resources/application-production.properties -vim src/main/resources/application-production.properties -java -jar -Dspring.profiles.active=production target/community-0.0.1-SNAPSHOT.jar -ps -aux | grep java -git pull -mvn package -java -jar -Dspring.profiles.active=production target/community-0.0.1-SNAPSHOT.jar 2. 克隆代码到本地
+3. 运行命令创建数据库脚本
+mvn flyway:migrate 运行打包命令  mvn package 运行项目  java -jar target/community-0.0.1-SNAPSHOT.jar 访问项目  http://localhost:8887 资料 Spring 文档 Spring Web</description>
+    </item>
+    
+  </channel>
+</rss>
